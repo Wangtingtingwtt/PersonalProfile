@@ -190,13 +190,12 @@ var Main = (function (_super) {
         Page2.addChild(longsnow);
         var introduce = new egret.TextField(); //文字介绍
         introduce.text = "个人介绍\n\n\n"
-            + "❤姓名：张琳\n\n\n"
-            + "❤年龄：21\n\n\n"
-            + "❤星座：处女座\n\n\n"
-            + "❤喜欢的爱豆：ARASHI！\n\n\n"
-            + "❤喜欢的歌：Harmony of December\n\n\n"
-            + "❤最近想看的书：《古事纪》\n\n\n"
-            + "❤最近想看的动漫：命运石之门\n\n\n";
+            + "❤姓名：王亭婷\n\n\n"
+            + "❤性别：女\n\n\n"
+            + "❤喜欢的电影：《飘》《乱世佳人》《罗马假日》《夜访吸血鬼》\n\n\n"
+            + "❤偶像：加西亚.马尔克斯\n\n\n"
+            + "❤喜欢的城市：扬州\n\n\n"
+            + "❤最近想看的电影：《我不是潘金莲》\n\n\n";
         introduce.size = 18;
         introduce.textColor = 0xffffff;
         introduce.x = 45;
