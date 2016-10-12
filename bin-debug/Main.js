@@ -119,7 +119,7 @@ var Main = (function (_super) {
         sky1.height = stageH;
         Page1.addChild(sky1);
         var bottomMask = new egret.Shape(); //主体白色背景框
-        bottomMask.graphics.beginFill(0xFFFFFF, 0.5);
+        bottomMask.graphics.beginFill(0xCCCCFF, 0.5);
         bottomMask.graphics.drawRect(0, 0, 550, 560);
         bottomMask.graphics.endFill();
         bottomMask.x = 50;
@@ -172,13 +172,13 @@ var Main = (function (_super) {
         sky2.height = stageH;
         Page2.addChild(sky2);
         var topMask = new egret.Shape(); //标题背景
-        topMask.graphics.beginFill(0xFFFFFF, 0.5);
+        topMask.graphics.beginFill(0xFFFFCC, 0.5);
         topMask.graphics.drawRect(0, 0, stageW, 172);
         topMask.graphics.endFill();
         topMask.y = 33;
         Page2.addChild(topMask);
         var secondMask = new egret.Shape(); //文字背景
-        secondMask.graphics.beginFill(0xFFFFFF, 0.3);
+        secondMask.graphics.beginFill(0xFFFFCC, 0.3);
         secondMask.graphics.drawRect(0, 0, stageW - 40, 720);
         secondMask.graphics.endFill();
         secondMask.x = 20;
