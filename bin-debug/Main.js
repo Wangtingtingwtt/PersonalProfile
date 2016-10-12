@@ -184,7 +184,7 @@ var Main = (function (_super) {
         secondMask.x = 20;
         secondMask.y = 315;
         Page2.addChild(secondMask);
-        var longsnow = this.createBitmapByName("snow640_png"); //雪花条幅
+        var longsnow = this.createBitmapByName("snow640_png"); //萤光条幅
         longsnow.x = 18;
         longsnow.y = 335;
         Page2.addChild(longsnow);
